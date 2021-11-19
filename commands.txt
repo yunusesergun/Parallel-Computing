@@ -1,0 +1,3 @@
+mpirun -np 4 --oversubscribe ./sssp_parallel ./src/sample_graph_paper_csc_8v_16e_weighted.txt 4 ./src/b.txt
+
+/sssp_serial ./src/sample_graph_paper_csc_8v_16e_weighted.txt 4 ./src/a.txt
